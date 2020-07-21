@@ -21,6 +21,7 @@ end
   end
   
   def popular_show
-    
+    result = []
+    Show.all
   end
 end
