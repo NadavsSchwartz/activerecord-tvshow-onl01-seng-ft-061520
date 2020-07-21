@@ -20,7 +20,7 @@ end
     Show.sum(:rating)
   end
   
-  def popular_show
+  def self.popular_show
     result = []
     Show.where("rating > 5")
   end
