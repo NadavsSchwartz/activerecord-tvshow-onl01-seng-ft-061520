@@ -22,6 +22,6 @@ end
   
   def popular_show
     result = []
-    result << Show.where("rating > 5")
+    Show.where("rating > 5")
   end
 end
