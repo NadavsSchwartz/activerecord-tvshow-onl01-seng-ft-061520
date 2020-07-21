@@ -26,6 +26,6 @@ end
   end
   
   def self.shows_by_alphabetical_order
-    Show.all.order  
+    Show.all.order(:name "ASC")  
   end
 end
